@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+
+  <link rel="stylesheet" href="main-style.css" />
+
+  <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.min.css">
+  </link>
+  <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.css">
+  </link>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+  <title>EMSI Manager</title>
+</head>
+
+<body>
+  <!-----------------------------------------------------------Navbar----------------------------------------------------------->
+
+  <nav id="nvb" class="navbar navbar-expand-lg bg-dark navbar-dark py-1 fixed-top">
+    <div class="container">
+      <a href="#" class="navbar-brand"><span
+          style="color: rgb(38, 95, 216) ; font-style:oblique; font-weight:bold; font-size: 1.5em;">EMSI
+          Manager</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+
+        <span class="navbar-toggler-icon"></span>
+
+      </button>
+
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+
+          <li class="nav-item">
+            <a href="#servc" class="nav-link">Nos services</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#prp" class="nav-link">À propos de nous</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#cntct" class="nav-link">Contactez-nous</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-----------------------------------------------------------Showcase----------------------------------------------------------->
+
+  <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+    <div class="container">
+      <div class="d-sm-flex align-items-center justify-content-between">
+        <div>
+          <h1>Bienvenue a <span style="color: rgb(38, 95, 216) ; font-weight: bold;">EMSI Manager</span></h1>
+          <p class="lead my-4" style="font-family: 'Gill Sans' , sans-serif;" align="justify">
+            À travers cette application vous aurez la possibilité de manipuler
+            la base de données de l'école marocaine des sciences de l'ingénieur <span
+              style="color: rgb(38, 95, 216) ; font-weight: bold;">EMSI.</span>
+          </p>
+
+          <a href="DP/Connect.php"><button class="btn btn-primary btn-lg" data-bs-toggle="modal"
+              data-bs-target="#enroll">Se connecter</button></a>
+
+        </div>
+
+        <img style=padding:30px; class="img-fluid w-50 d-none d-sm-block" src="img/showcase.svg" alt="" />
+
+      </div>
+    </div>
+  </section>
+
+  <!-----------------------------------------------------------Contenaires----------------------------------------------------------->
+
+  <section class="p-5" style="background-color: rgb(33, 37, 41);" id="servc">
+    <div class="container">
+
+      <div class="row text-center g-4">
+
+        <div class="col-md">
+          <div class="card bg-dark text-light">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-person-bounding-box"></i>
+              </div>
+              <h3 class="card-title mb-3">Professeurs</h3>
+              <p class="card-text-1" align="justify">
+                Vous pouvez afficher la liste des professeurs, en ajouter un,
+                le supprimer où bien modifier ses informations.
+              </p>
+              <a href="#" class="btn btn-primary">Afficher plus</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md">
+          <div class="card bg-secondary text-light">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-book"></i>
+              </div>
+              <h3 class="card-title mb-3">Cours</h3>
+              <p class="card-text-2" align="justify">
+                Vous pouvez ajouter, supprimer et modifier des cours, ainsi que
+                les affecter aux professeurs.
+              </p>
+              <a href="#" class="btn btn-dark">Afficher plus</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md">
+          <div class="card bg-dark text-light">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-building"></i>
+              </div>
+              <h3 class="card-title mb-3">Départements</h3>
+              <p class="card-text-3" align="justify">
+                Vous pouvez afficher la liste des départements, en ajouter un,
+                le supprimer où bien modifier ses informations, ainsi qu'afficher
+                la liste des professeurs appartenant à un département.
+              </p>
+              <a href="#" class="btn btn-primary">Afficher plus</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-----------------------------------------------------------Section à propos de nous----------------------------------------------------------->
+
+  <section id="prp" class="p-5">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+
+        <div class="col-md">
+          <img src="img/fundamentals.svg" class="img-fluid" alt="" />
+        </div>
+
+        <div class="col-md p-5">
+          <h2>À propos de EMSI Manager</h2>
+          <p align="justify">
+            EMSI Manager a été fondu en 1990, quatre ans après la création de l'EMSI à Casablanca.
+            Le but de cette application était de faciliter aux membres de l'administration de
+            l'école d'avoir l'accès à la base de données qui contient l'ensemble des professeurs,
+            leurs cours et les départements auxquels ils appartiennent.
+          </p>
+          <a href="#" class="btn btn-primary">Afficher plus</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-----------------------------------------------------------Footer----------------------------------------------------------->
+
+  <footer>
+    <div class="container" id="cntct">
+
+      <div class="sec aboutus">
+        <h2>À Propos De L'école</h2>
+        <p align="justify"> L'EMSI est la première école Marocaine des sciences de l'ingénieur, c'est un établissement
+          d’enseignement cadres ingénieurs dans les domaines de la technologie au Maroc.
+        </p>
+
+        <ul class="sci">
+          <li><a href="https://web.facebook.com/emsi.ma/?_rdc=1&_rdr"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="https://www.instagram.com/groupe.emsi/?igshid=7rikpderxqla"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="https://www.youtube.com/channel/UC5BiOBai2N48ytbCRQWWqJw"><i class="fab fa-youtube"></i></a></li>
+        </ul>
+
+      </div>
+
+      <div class="sec quicklinks">
+        <h2>Accès Rapide</h2>
+
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Sécurité</a></li>
+          <li><a href="#">Aide</a></li>
+          <li><a href="#">Termes & Conditions</a></li>
+          <li><a href="#">Contactez-nous</a></li>
+        </ul>
+
+      </div>
+
+      <div class="sec contact">
+        <h2>Contact</h2>
+
+        <ul class="info">
+          <li>
+            <span><i class="fas fa-map-marker-alt"></i></span>
+            <span>
+              rue Alkhawarizmi<br>
+              Les Orangers, Casablanca<br>Maroc</span>
+          </li>
+          <li>
+            <span><i class="fas fa-phone-alt"></i></span>
+            <p><a href="tel:123456789">+ 123 4567 890</a><br></p>
+          </li>
+          <li>
+            <span><i class="fas fa-envelope-open"></i></span>
+            <p><a href="mailto:lacite@edu.ma">emsi@edu.ma</a></p>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </footer>
+
+  <div class="copyrightText" id="cntct">
+    <p>Copyright 2022. Tous droits réservés</p>
+  </div>
+
+  <!-----------------------------------------------------------End Footer----------------------------------------------------------->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+    </script>
+
+
+</body>
+
+</html>
